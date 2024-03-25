@@ -19,9 +19,10 @@
     }
 
     .adress{
-        width: 175px;
+        width: 170px;
         font-size: 10px;
         color: black;
+        margin-right: 10px;
     }
 
     .adress a{

@@ -1,0 +1,135 @@
+.top{
+    display: flex;
+    width: 100vw;
+    height: 250px;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin-top: 0px;
+    margin-left: 70px;
+    width: 450px;
+    height: 250px;
+}
+
+.adress{
+    width: 500px;
+    background-color: lightgrey;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    color: red;
+    font-size: 18px;
+}
+.adress a{
+    text-decoration: none;
+    color: red;
+}
+
+body{
+    width: 100vw;
+    background-color: black;
+}
+
+
+.store{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.store a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.store a:hover{
+    color: red;
+}
+
+.specialized{
+    height:458px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+}
+
+.specialized img{
+    width: 300px;
+}
+
+.specialized a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #FFF;
+    cursor: default;
+
+}
+
+.bottom{
+    display: flex;
+    width: 100vw;
+    height: 150px;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    margin-right: 50px;
+}
+.bottom h2{
+    margin-bottom: 5px;
+    color: red;
+}
+.bottom p{
+    text-indent: 25px;
+}
+
+.info h2{
+    margin-top: 20px;
+}
+
+.info{
+    margin-right: 60px;
+    border-right: 2px solid black;
+    width: 450px;
+    height: 120px;
+}
+.social-media{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    gap: 40px;    
+}
+
+.social-media a{
+    text-decoration: none;
+    color: black;
+}
+
+.social-media a:hover{
+    color: red;
+}
+
+.social-media i{
+    scale: 2.5;
+}
+
+.fa-shopping-cart{
+    margin-right: 15px;
+    font-size: 30px;
+}

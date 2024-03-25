@@ -1,0 +1,92 @@
+@media (max-width: 375px){
+    .top{
+        margin: 0;
+        display: flex;
+        width: 100vw;
+        height: 120px;
+        background-color: lightgrey;
+        align-items: center;
+        justify-content: center;
+    }
+    header{
+        align-items: center;
+        justify-content: center;
+    }
+    .logo {
+        width: 200px;
+        height: 100px;
+        margin: 0;
+    }
+
+    .adress{
+        width: 175px;
+        font-size: 10px;
+        color: black;
+    }
+
+    .adress a{
+        text-decoration: none;
+        color: black;
+    }
+   
+    .store{
+        height: 60px;
+    }
+    .store a{
+        font-size: 22px;
+    }
+    
+    .specialized{
+        height:380px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .specialized img{
+        width: 250px;
+    }
+    
+    .specialized a{
+        font-size: 22px;
+        cursor: default;
+    
+    }
+   
+    .bottom{
+        height: 200px;
+        flex-direction: column;
+    }
+
+    .bottom h2{
+        font-size: 20px;
+        margin-bottom: 5px;
+        text-indent: 20px;
+    }
+     
+    .info{
+        margin-left: 55px;
+        border-right: none;
+        border-bottom: 2px solid black;
+        width: 340px;
+        height: 100px;
+    }
+    .social-media{
+        height: 100px;
+    }
+    
+    .fa-shopping-cart{
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -13,16 +13,15 @@
         justify-content: center;
     }
     .logo {
-        width: 190px;
+        width: 200px;
         height: 100px;
         margin: 0;
     }
 
     .adress{
-        width: 185px;
+        width: 175px;
         font-size: 10px;
         color: black;
-        margin-right: 5px;
     }
 
     .adress a{
@@ -38,7 +37,7 @@
     }
     
     .specialized{
-        height:380px;
+        height:480px;
         display: flex;
         flex-direction: column;
     }
@@ -50,9 +49,11 @@
     .specialized a{
         font-size: 22px;
         cursor: default;
-    
     }
-   
+
+    .left{
+        gap:20px;
+    }
     .bottom{
         height: 200px;
         flex-direction: column;

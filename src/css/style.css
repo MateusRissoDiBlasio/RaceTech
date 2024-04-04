@@ -68,6 +68,7 @@ body{
 
 .specialized img{
     width: 300px;
+    cursor: pointer;
 }
 
 .specialized a{
@@ -75,7 +76,13 @@ body{
     font-size: 30px;
     color: #FFF;
     cursor: default;
+}
 
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
 }
 
 .bottom{

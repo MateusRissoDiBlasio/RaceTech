@@ -1,4 +1,120 @@
-@media (max-width: 375px){
+@media (max-width: 320px){
+   
+    .top{
+        height: 130px;
+    }
+       
+    .logo {
+        width: 150px;
+        height: 120px;
+        margin: 0;
+    }
+    
+    .adress{
+        width: 175px;
+        font-size: 10px;
+        color: black;
+    }
+
+    .adress a{
+        text-decoration: none;
+        color: black;
+    }
+   
+    .store{
+        height: 60px;
+    }
+    
+    .store a{
+        font-size: 22px;
+    }
+    
+    .specialized{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .specialized img{
+        width: 250px;
+    }
+    
+    .specialized a{
+        font-size: 22px;
+        cursor: default;
+    }
+
+    .left .qr a{
+        width: 0px;
+    }
+    .left{
+        width: 320px;
+        align-items: center;
+        margin-right: 70px;
+    }
+
+    .left .thule {
+        margin-top: 25px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .right{
+     margin-left: 35px;   
+    }
+
+    .bike{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .qr{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .left .qr{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .bottom{
+        height: 175px;
+        flex-direction: column;
+    }
+
+    .bottom h2{
+        font-size: 18px;
+        margin-bottom: 5px;
+        text-indent: 20px;
+    }
+     
+    .info{
+        margin-left: 55px;
+        border-right: none;
+        border-bottom: 2px solid black;
+        width: 300px;
+        height: 120px;
+    }
+    .info p{
+        text-indent: 40px;
+    }
+    
+    .social-media{
+        height: 100px;
+    }
+    
+    .fa-shopping-cart{
+        margin-right: 10px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px){
+    
     .top{
         margin: 0;
         display: flex;
@@ -8,36 +124,39 @@
         align-items: center;
         justify-content: center;
     }
+    
     header{
         align-items: center;
         justify-content: center;
     }
+    
     .logo {
         width: 200px;
         height: 100px;
         margin: 0;
     }
-
+    
     .adress{
         width: 175px;
         font-size: 10px;
-        color: red;
+        color: black;
     }
 
     .adress a{
         text-decoration: none;
-        color: red;
+        color: black;
     }
    
     .store{
         height: 60px;
     }
+    
     .store a{
         font-size: 22px;
     }
     
     .specialized{
-        height:480px;
+        height:500px;
         display: flex;
         flex-direction: column;
     }
@@ -53,7 +172,37 @@
 
     .left{
         gap:20px;
+        align-items: center;
     }
+
+    .left .thule {
+        margin-top: 25px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .right{
+     margin-left: 62.5px;   
+    }
+
+    .bike{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .qr{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .left .qr{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
     .bottom{
         height: 200px;
         flex-direction: column;
@@ -72,6 +221,7 @@
         width: 340px;
         height: 100px;
     }
+    
     .social-media{
         height: 100px;
     }
@@ -80,4 +230,278 @@
         margin-right: 10px;
         font-size: 20px;
     }
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+    
+    .top{
+        margin: 0;
+        display: flex;
+        width: 100vw;
+        height: 120px;
+        background-color: lightgrey;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header{
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo {
+        width: 212.5px;
+        height: 100px;
+        margin: 0;
+    }
+
+    .adress{
+        width: 212.5px;
+        font-size: 10px;
+        color: black;
+    }
+
+    .adress a{
+        text-decoration: none;
+        color: black;
+    }
+   
+    .store{
+        height: 60px;
+    }
+
+    .store a{
+        font-size: 22px;
+    }
+    
+    .specialized{
+        height:500px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .specialized img{
+        width: 250px;
+    }
+    
+    .specialized a{
+        font-size: 22px;
+        cursor: default;
+    }
+
+    .left{
+        gap:0px; 
+    }
+
+    .left .thule {
+        margin-top: 25px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .right{
+        margin-left: 87.5px;   
+    }
+
+    .left .qr{
+        width: 0;
+    }
+
+    .bike{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .qr{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
+    .bottom{
+        height: 200px;
+        flex-direction: column;
+    }
+
+    .bottom h2{
+        font-size: 20px;
+        margin-bottom: 5px;
+        text-indent: 20px;
+    }
+     
+    .info{
+        margin-left: 55px;
+        border-right: none;
+        border-bottom: 2px solid black;
+        width: 340px;
+        height: 100px;
+    }
+
+    .social-media{
+        height: 100px;
+    }
+    
+    .fa-shopping-cart{
+        margin-right: 10px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+
+    .top{
+        height: 150px;
+        background-color: lightgrey;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 300px;
+        height: 150px;
+        margin-left: 84px;
+    }
+
+    .adress{
+        width: 384px;
+        font-size: 14px;
+    }
+
+    .store{
+        height: 80px;
+    }
+    .store a{
+        font-size: 28px;
+    }
+    
+    .specialized{
+        height:400px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .specialized img{
+        margin-left: 67px;
+        width: 250px;
+    }
+    
+    .specialized a{
+        font-size: 22px;
+    }
+    
+    .left{
+        gap:20px;
+        align-items: center;
+    }
+    
+    .bike{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .qr{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+     .bottom{
+        height: 150px;
+    } 
+
+    .bottom h2{
+        font-size: 24px;
+        margin-bottom: 5px;
+        text-indent: 5px;
+    }  
+    
+    .info{
+        width: 384px;
+        margin-right: 10px;
+        border: 0;
+    }
+
+    .social-media{
+     width: 328px;  
+     height: 120px;
+     border-left: 2px solid black; 
+    }
+
+    .fa-shopping-cart{
+        margin-right: 10px;
+        font-size: 26px;
+    }    
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .adress{
+        margin-left: 40px;
+    }
+
+    .bottom{
+        gap: 30px;
+    }
+
+    .info{
+        width: 550px;
+        font-size: 20px;
+    }
+
+    .s-logo{
+        scale: 90%;
+    }
+
+    .bike{
+        position: absolute;
+        margin-top: 60px;
+        scale: 85%;
+        transform: translateX(-80px);    
+    }
+
+    @keyframes go-foward{
+        from{
+        transform: translateX(-290px);
+        }
+        to{
+        transform: translateX(-80px);
+        }
+    }
+
+    .qr{
+        width: 70px;
+    }
+
+    .left{
+        gap: 30px;   
+    }
+} 
+
+@media (min-width: 1025px) and (max-width: 1440px){
+
+.logo{
+    width: 720px;
+}
+
+.top img{
+    scale:80%;
+}
+
+.adress{
+    width: 720px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+
+.bottom{
+    gap: 80px;
+}
+
+.info{
+    margin-left: -80px;
+    width: 570px;
+    font-size: 20px;
+}
 }

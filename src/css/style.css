@@ -1,7 +1,7 @@
 .top{
     display: flex;
     width: 100vw;
-    height: 250px;
+    height: 200px;
     background-color: lightgrey;
     align-items: center;
     justify-content: center;
@@ -69,6 +69,7 @@ body{
 .specialized img{
     width: 300px;
     cursor: pointer;
+    background-color: black;    
 }
 
 .specialized a{
@@ -78,11 +79,62 @@ body{
     cursor: default;
 }
 
-.left {
+.left{
+    display: flex;
+    min-width: 50vw;
+    justify-content: flex-end;
+    gap: 80px;
+    align-items: center;
+}
+.left .thule{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    align-items: center;
+    align-items: flex-end;
+}
+
+.left .qr {
+    animation: fadeIn 4s;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+.left .qr {
+    width: 150px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: default;
+}
+
+.left .qr a{
+    font-size: 20px;
+    color: red;
+    font-weight: 100;
+}
+
+.right {
+    flex-direction: row;
+    min-width: 50vw;
+}
+
+.bike{
+    animation: go-foward 7s;
+    position: relative;
+    z-index: -1;    
+}
+
+@keyframes go-foward{
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translate(0px);
+    }
+
 }
 
 .bottom{
@@ -99,6 +151,7 @@ body{
 .bottom h2{
     margin-bottom: 5px;
     color: red;
+    font-weight: 500;
 }
 .bottom p{
     text-indent: 25px;

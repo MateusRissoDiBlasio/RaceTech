@@ -437,6 +437,9 @@
 
 @media (min-width: 769px) and (max-width: 1024px){
 
+    .top img{
+        scale:85%;
+    }
     .adress{
         margin-left: 40px;
     }
@@ -486,7 +489,7 @@
 }
 
 .top img{
-    scale:80%;
+    scale:85%;
 }
 
 .adress{
@@ -504,4 +507,10 @@
     width: 570px;
     font-size: 20px;
 }
+}
+
+@media (min-width: 1441px){
+    .top img{
+        scale:85%;
+    }    
 }
